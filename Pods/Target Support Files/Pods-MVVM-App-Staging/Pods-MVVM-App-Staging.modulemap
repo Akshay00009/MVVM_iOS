@@ -1,0 +1,6 @@
+framework module Pods_MVVM_App_Staging {
+  umbrella header "Pods-MVVM-App-Staging-umbrella.h"
+
+  export *
+  module * { export * }
+}

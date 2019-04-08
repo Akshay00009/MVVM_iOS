@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Development</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://192.168.105.111/DashboardServices/CertLinkService/Trunk/Services/</string>
+		<key>versionOnly</key>
+		<false/>
+	</dict>
+	<key>Staging</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://18.213.231.76:9001/api/ApexRiderWebApi-staging/</string>
+        <key>versionOnly</key>
+        <true/>
+	</dict>
+	<key>Production</key>
+	<dict>
+		<key>baseUrl</key>
+		<string>http://18.213.231.76:9001/api/ApexRiderWebApi-production/</string>
+        <key>versionOnly</key>
+        <true/>
+	</dict>
+</dict>
+</plist>

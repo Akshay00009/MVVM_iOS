@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+  def shared_pods
+   pod 'Alamofire', '~> 4.0'
+
+
+  end
+
+  target 'MVVM-App-Development' do
+   shared_pods
+   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+   use_frameworks!
+  end
+
+  target 'MVVM-App-Staging' do
+   shared_pods
+   use_frameworks!
+  end
+
+  target 'MVVM-App-Production' do
+   shared_pods
+   use_frameworks!
+  end
+
+
+
